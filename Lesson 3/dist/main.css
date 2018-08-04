@@ -5,7 +5,7 @@ html, body {
   background-color: #AE501D; }
 
 h1 {
-  color: paleturquoise;
+  color: red;
   margin: 1em auto;
   margin-bottom: 2em;
   text-align: center;
@@ -33,7 +33,5 @@ div.main {
       top: 0;
       left: 60px;
       width: 100px;
-      -webkit-transform: translate(0, -100%);
-              transform: translate(0, -100%);
-      -webkit-filter: invert(1);
-              filter: invert(1); }
+      transform: translate(0, -100%);
+      filter: invert(1); }
